@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-SMBExec-master.flake = false;
+  inputs.src-SMBExec-master.ref   = "refs/heads/master";
   inputs.src-SMBExec-master.owner = "elddy";
-  inputs.src-SMBExec-master.ref   = "master";
   inputs.src-SMBExec-master.repo  = "SMB-Nim";
   inputs.src-SMBExec-master.type  = "github";
   
